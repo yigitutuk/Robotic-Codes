@@ -16,15 +16,14 @@ PWMB = 13
 
 STBY = 25
 
-# SENSÖRLER
+
 LEFT_SENSOR = 5
 RIGHT_SENSOR = 6
 
-# HIZLAR
+
 speed = 70
 turnspeed = 50
 
-# PIN AYARLARI
 motor_pins = [AIN1, AIN2, PWMA, BIN1, BIN2, PWMB, STBY]
 
 for pin in motor_pins:
@@ -35,7 +34,7 @@ GPIO.setup(RIGHT_SENSOR, GPIO.IN)
 
 GPIO.output(STBY, GPIO.HIGH)
 
-# PWM
+
 left_pwm = GPIO.PWM(PWMA, 1000)
 right_pwm = GPIO.PWM(PWMB, 1000)
 
