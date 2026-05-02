@@ -102,9 +102,7 @@ try:
 
         else:
             stop()
-            
-        plt.plot(left_sensor,right_sensor)
-        plt.show()
+        
 
         time.sleep(0.02)
 
