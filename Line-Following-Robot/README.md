@@ -4,10 +4,10 @@ This project implements a line-following robot using sensor feedback and PWM mot
 
 Tools Used:
 
-Python
-GPIO BCM pins
-PWM control
-Infrared sensors
+Python,
+GPIO BCM pins,
+PWM control,
+Infrared sensors,
 Time module
 
 
