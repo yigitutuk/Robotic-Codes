@@ -1,1 +1,1 @@
-
+This project is a Raspberry Pi based line following robot that uses IR sensors to detect and follow a path automatically. The robot controls two DC motors through a TB6612FNG motor driver and adjusts its movement based on sensor readings. PWM is used for speed control, allowing smooth forward movement and turning operations.
